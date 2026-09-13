@@ -13,6 +13,8 @@ from .memory import (
 )
 
 from .event import ModuleEvent
+from .user import User
+
 
 
 __all__ = [
