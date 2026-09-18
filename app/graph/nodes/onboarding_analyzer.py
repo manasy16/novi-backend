@@ -4,49 +4,61 @@ from app.services.onboarding_service import (
 )
 
 
-def onboarding_analyzer_node(
-    state: State1,
-) -> dict:
-    """
-    Analyze currently known student memories and determine
-    onboarding progress.
-    """
+from app.graph.state.state import State1
+from app.services.onboarding_service import onboarding_service
 
-    relevant_memories = (
-        state.get("relevant_memories")
-        or []
+
+def onboarding_analyzer_node(state: State1):
+    relevant_memories = state.get("relevant_memories") or []
+
+    analysis = onboarding_service.analyze_profile(
+        memories=relevant_memories
     )
 
-    analysis = (
-        onboarding_service.analyze_profile(
-            memories=relevant_memories
+    if analysis["onboarding_complete"]:
+        onboarding_status = "completed"
+        next_onboarding_focus = None
+
+    else:
+        onboarding_status = "in_progress"
+
+        completed_categories = set(
+            analysis["completed_categories"]
         )
-    )
 
-    onboarding_status = (
-        "completed"
-        if analysis["onboarding_complete"]
-        else "in_progress"
-    )
+        # -------------------------------------------------
+        # BROAD FOUNDATIONAL FOCUS
+        # -------------------------------------------------
+        #
+        # This is intentionally deterministic.
+        # The LLM should NOT decide the onboarding strategy.
+        #
+        # We first make sure the five foundational areas
+        # are covered broadly.
+        # -------------------------------------------------
 
-    result = {
-        "onboarding_profile":
-            analysis["profile"],
+        foundational_priority = [
+            "education",
+            "interest",
+            "skill",
+            "career_goal",
+            "learning_preference",
+        ]
 
-        "known_categories":
-            analysis["known_categories"],
+        next_onboarding_focus = None
 
-        "completed_categories":
-            analysis["completed_categories"],
+        for category in foundational_priority:
 
-        "missing_categories":
-            analysis["missing_categories"],
+            if category not in completed_categories:
+                next_onboarding_focus = category
+                break
 
-        "completion_percentage":
-            analysis["completion_percentage"],
-
-        "onboarding_status":
-            onboarding_status,
+    return {
+        "onboarding_profile": analysis["profile"],
+        "known_categories": analysis["known_categories"],
+        "completed_categories": analysis["completed_categories"],
+        "missing_categories": analysis["missing_categories"],
+        "completion_percentage": analysis["completion_percentage"],
+        "onboarding_status": onboarding_status,
+        "next_onboarding_focus": next_onboarding_focus,
     }
-
-    return result

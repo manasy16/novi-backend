@@ -1,21 +1,101 @@
-from langgraph.graph import StateGraph, START, END
+from langgraph.graph import (
+    StateGraph,
+    START,
+    END,
+)
 
 from app.graph.state.state import State1
 
-from app.graph.nodes.context_loader import load_context
-from app.graph.nodes.onboarding_analyzer import onboarding_analyzer_node
-from app.graph.nodes.conversation_node import conversation_node
-from app.graph.nodes.memory_extractor import memory_extractor_node
-from app.graph.nodes.memory_updater import memory_updater_node
-from app.graph.nodes.context_refresher import refresh_context
+from app.graph.nodes.input_guardrail import (
+    input_guardrail_node,
+)
+
+from app.graph.nodes.output_guardrail import (
+    output_guardrail_node,
+)
+
+from app.graph.nodes.context_loader import (
+    load_context,
+)
+
+from app.graph.nodes.onboarding_analyzer import (
+    onboarding_analyzer_node,
+)
+
+from app.graph.nodes.conversation_node import (
+    conversation_node,
+)
+
+from app.graph.nodes.memory_extractor import (
+    memory_extractor_node,
+)
+
+from app.graph.nodes.memory_updater import (
+    memory_updater_node,
+)
+
+from app.graph.nodes.context_refresher import (
+    refresh_context,
+)
+
+
+def guardrail_response_node(
+    state: State1
+) -> dict:
+
+    return {
+        "assistant_response": state.get(
+            "guardrail_response",
+            (
+                "Let's keep our conversation focused "
+                "on your education, learning, skills, "
+                "and career development."
+            ),
+        )
+    }
+
+
+def route_after_input_guardrail(
+    state: State1
+):
+
+    if state.get(
+        "input_guardrail_allowed",
+        False,
+    ):
+
+        return "load_context"
+
+    return "guardrail_response"
 
 
 def build_module1_graph():
 
-    workflow = StateGraph(State1)
+    workflow = StateGraph(
+        State1
+    )
 
     # -------------------------------------------------
-    # ADD NODES
+    # GUARDRAILS
+    # -------------------------------------------------
+
+    workflow.add_node(
+        "input_guardrail",
+        input_guardrail_node,
+    )
+
+    workflow.add_node(
+        "guardrail_response",
+        guardrail_response_node,
+    )
+
+    workflow.add_node(
+        "output_guardrail",
+        output_guardrail_node,
+    )
+
+    # -------------------------------------------------
+    # EXISTING MODULE 1 NODES
     # -------------------------------------------------
 
     workflow.add_node(
@@ -54,53 +134,84 @@ def build_module1_graph():
     )
 
     # -------------------------------------------------
-    # DEFINE FLOW
+    # START
     # -------------------------------------------------
 
     workflow.add_edge(
         START,
-        "load_context",
+        "input_guardrail",
     )
 
-    # Initial onboarding analysis
+    # -------------------------------------------------
+    # INPUT GUARDRAIL ROUTING
+    # -------------------------------------------------
+
+    workflow.add_conditional_edges(
+        "input_guardrail",
+        route_after_input_guardrail,
+        {
+            "load_context":
+                "load_context",
+
+            "guardrail_response":
+                "guardrail_response",
+        },
+    )
+
+    # -------------------------------------------------
+    # BLOCKED INPUT
+    # -------------------------------------------------
+
+    workflow.add_edge(
+        "guardrail_response",
+        "output_guardrail",
+    )
+
+    # -------------------------------------------------
+    # EXISTING MODULE 1 FLOW
+    # -------------------------------------------------
+
     workflow.add_edge(
         "load_context",
         "analyze_onboarding_initial",
     )
 
-    # Generate exactly ONE assistant response
     workflow.add_edge(
         "analyze_onboarding_initial",
         "conversation",
     )
 
-    # Extract memories from THIS user message
     workflow.add_edge(
         "conversation",
         "extract_memory",
     )
 
-    # Save/update memories
     workflow.add_edge(
         "extract_memory",
         "update_memory",
     )
 
-    # Reload updated memories
     workflow.add_edge(
         "update_memory",
         "refresh_context",
     )
 
-    # Calculate final onboarding status
     workflow.add_edge(
         "refresh_context",
         "analyze_onboarding_final",
     )
 
-    # END THE TURN
     workflow.add_edge(
         "analyze_onboarding_final",
+        "output_guardrail",
+    )
+
+    # -------------------------------------------------
+    # FINAL
+    # -------------------------------------------------
+
+    workflow.add_edge(
+        "output_guardrail",
         END,
     )
 

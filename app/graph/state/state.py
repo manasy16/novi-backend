@@ -70,8 +70,34 @@ class State1(TypedDict, total=False):
 
     completion_percentage: int
 
+    next_onboarding_focus: Optional[str]
+
+
     # -------------------------------------------------
     # Future module integration
     # -------------------------------------------------
 
     module2_triggered: bool
+
+#Weekly convo states
+    weekly_update_summary: Optional[str]
+    weekly_update_completed: bool
+    weekly_new_information: List[str]
+    weekly_changes: List[str]
+    module2_triggered: bool
+
+        # -------------------------------------------------
+    # Guardrails
+    # -------------------------------------------------
+
+    input_guardrail_allowed: bool
+
+    input_guardrail_category: Optional[str]
+
+    input_guardrail_reason: Optional[str]
+
+    output_guardrail_allowed: bool
+
+    output_guardrail_reason: Optional[str]
+
+    guardrail_response: Optional[str]
