@@ -78,13 +78,16 @@ class State1(TypedDict, total=False):
     # -------------------------------------------------
 
     module2_triggered: bool
+    module2_result: Optional[Dict[str, Any]]
 
 #Weekly convo states
     weekly_update_summary: Optional[str]
     weekly_update_completed: bool
     weekly_new_information: List[str]
     weekly_changes: List[str]
+    
     module2_triggered: bool
+    module2_trigger_reasons: List[str]
 
         # -------------------------------------------------
     # Guardrails

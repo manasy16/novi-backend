@@ -1,0 +1,254 @@
+skill_name,skill_slug,skill_category,skill_description
+Hand Tool Operation,hand-tool-operation,Tools & Equipment,"Safe, precise use of manual tools such as chisels, saws, hammers, and files for shaping materials."
+Power Tool Operation,power-tool-operation,Tools & Equipment,"Safe and skilled use of powered equipment such as drills, lathes, sanders, and saws."
+Woodworking Techniques,woodworking-techniques,Domain Knowledge,"Knowledge of joinery, carving, finishing, and construction methods for wood-based projects."
+Material Selection,material-selection,Domain Knowledge,"Ability to choose appropriate raw materials based on durability, cost, and intended use."
+Ceramics & Pottery Techniques,ceramics-and-pottery-techniques,Domain Knowledge,"Wheel throwing, hand-building, glazing, and kiln-firing methods for clay work."
+Leatherworking,leatherworking,Domain Knowledge,"Cutting, stitching, dyeing, and finishing techniques for leather goods."
+Jewellery Fabrication,jewellery-fabrication,Domain Knowledge,"Techniques for shaping, setting, and finishing metal, bead, and stone jewellery pieces."
+Tattooing Technique,tattooing-technique,Domain Knowledge,"Skilled use of tattoo machines, needle depth control, and shading/lining methods."
+Sterilization & Hygiene Practices,sterilization-and-hygiene-practices,Safety & Compliance,Following infection-control and sanitation protocols required in body-art and medical-adjacent settings.
+Hand Lettering & Calligraphy,hand-lettering-and-calligraphy,Creative Arts,"Formation of decorative, consistent lettering using pens, brushes, or digital tools."
+Soap & Candle Formulation,soap-and-candle-formulation,Domain Knowledge,"Knowledge of ingredients, ratios, and curing processes for handmade soap and candle products."
+Baking & Pastry Techniques,baking-and-pastry-techniques,Domain Knowledge,"Recipe execution, dough handling, and oven techniques for breads, cakes, and desserts."
+Food Safety & Hygiene,food-safety-and-hygiene,Safety & Compliance,"Understanding of safe food handling, storage, and sanitation standards."
+Pattern Making,pattern-making,Domain Knowledge,Drafting and adjusting garment patterns to fit design specifications and body measurements.
+Sewing & Stitching,sewing-and-stitching,Tools & Equipment,Operating sewing machines and hand-stitching techniques for garment construction.
+Textile Knowledge,textile-knowledge,Domain Knowledge,"Understanding fabric types, behavior, and suitability for different garments and uses."
+Miniature Modelling,miniature-modelling,Domain Knowledge,"Building small-scale, highly detailed replicas using precision techniques and mixed materials."
+Bicycle Mechanics,bicycle-mechanics,Domain Knowledge,"Diagnosing and repairing bicycle drivetrains, brakes, wheels, and frames."
+Instrument Making & Repair,instrument-making-and-repair,Domain Knowledge,Constructing or restoring musical instruments with attention to acoustics and craftsmanship.
+Acoustic Knowledge,acoustic-knowledge,Domain Knowledge,Understanding how material and construction choices affect an instrument's sound.
+Client Relationship Management,client-relationship-management,Business,Building and maintaining trust-based relationships with clients across a service engagement.
+Vendor Coordination,vendor-coordination,Business,"Sourcing, negotiating with, and scheduling third-party suppliers or service providers."
+Budgeting,budgeting,Business,Planning and tracking costs against a defined budget for a project or event.
+Event Planning,event-planning,Business,"End-to-end coordination of logistics, timelines, and vendors for an event."
+Negotiation,negotiation,Business,"Reaching mutually acceptable agreements on price, terms, or scope with clients or vendors."
+Active Listening,active-listening,Communication & Language,"Attentively understanding a person's concerns, goals, or needs before responding."
+Goal Setting Frameworks,goal-setting-frameworks,Domain Knowledge,Structured methods for helping individuals define and track personal or professional goals.
+Behavioral Coaching Techniques,behavioral-coaching-techniques,Domain Knowledge,Methods for guiding habit change and accountability in one-on-one coaching sessions.
+Curriculum Design,curriculum-design,Domain Knowledge,Structuring learning content and sessions to meet defined training objectives.
+Public Speaking,public-speaking,Communication & Language,"Delivering clear, engaging spoken content to a group or audience."
+Presentation Design,presentation-design,Software,Building visually clear slide decks and materials to support a talk or training.
+Compatibility Assessment,compatibility-assessment,Domain Knowledge,"Evaluating personal values, preferences, and backgrounds to identify compatible matches."
+Interviewing Techniques,interviewing-techniques,Domain Knowledge,Structured questioning methods to draw out relevant information from a person.
+Real Estate Market Analysis,real-estate-market-analysis,Domain Knowledge,"Assessing property values, trends, and comparables within a local market."
+Property Law Basics,property-law-basics,Domain Knowledge,"Working knowledge of contracts, disclosures, and regulations governing property transactions."
+Sales,sales,Business,Guiding a prospect from interest to a closed transaction or agreement.
+Recruitment & Sourcing,recruitment-and-sourcing,Business,"Identifying, screening, and attracting suitable job candidates."
+Employee Relations,employee-relations,Business,"Managing workplace conflicts, policies, and engagement between staff and management."
+HR Policy Development,hr-policy-development,Domain Knowledge,"Designing fair, compliant workplace policies and procedures."
+Itinerary Planning,itinerary-planning,Domain Knowledge,"Sequencing travel activities, transport, and stays into a coherent trip plan."
+Destination Knowledge,destination-knowledge,Domain Knowledge,"Familiarity with attractions, logistics, culture, and costs of travel destinations."
+Fundraising Strategy,fundraising-strategy,Business,Planning campaigns and outreach to secure donations or investment.
+Grant Writing,grant-writing,Communication & Language,Writing structured proposals to secure funding from donors or institutions.
+Donor Relationship Management,donor-relationship-management,Business,Cultivating and maintaining relationships with recurring or major donors.
+Community Moderation,community-moderation,Domain Knowledge,Enforcing guidelines and resolving disputes within an online community.
+Social Media Management,social-media-management,Software,"Planning, scheduling, and analyzing content across social platforms."
+Engagement Analytics,engagement-analytics,Data,Interpreting platform metrics to understand audience behavior and content performance.
+Bilingual/Multilingual Proficiency,bilingual-multilingual-proficiency,Communication & Language,Fluent comprehension and production of two or more languages.
+Translation Techniques,translation-techniques,Domain Knowledge,Accurately converting written or spoken meaning between languages while preserving intent.
+Simultaneous Interpretation,simultaneous-interpretation,Domain Knowledge,Real-time spoken translation between languages during live conversation.
+Conflict Resolution,conflict-resolution,Domain Knowledge,Structured techniques for de-escalating and resolving disputes between parties.
+Mediation Techniques,mediation-techniques,Domain Knowledge,Neutral facilitation methods to help disputing parties reach agreement.
+Media Relations,media-relations,Business,Managing communication and coverage with journalists and media outlets.
+Crisis Communication,crisis-communication,Communication & Language,Managing messaging and public response during reputational or emergency situations.
+Copywriting,copywriting,Communication & Language,"Writing persuasive, audience-appropriate text for marketing or brand purposes."
+Wilderness First Aid,wilderness-first-aid,Safety & Compliance,Emergency response and injury care techniques for remote or outdoor settings.
+Trail Navigation,trail-navigation,Domain Knowledge,"Using maps, compasses, or GPS to safely guide groups through terrain."
+Risk Assessment (Outdoor),risk-assessment-outdoor,Safety & Compliance,Identifying and mitigating hazards specific to outdoor and adventure activities.
+Group Leadership (Outdoor),group-leadership-outdoor,Domain Knowledge,Guiding and managing groups safely through physically demanding environments.
+Wildlife Knowledge,wildlife-knowledge,Domain Knowledge,"Understanding animal behavior, habitats, and safe observation practices."
+Photography,photography,Creative Arts,Composing and capturing high-quality still images using appropriate equipment and technique.
+Camera Equipment Handling,camera-equipment-handling,Tools & Equipment,"Operating cameras, lenses, and supporting gear across varied conditions."
+Photo Editing,photo-editing,Software,"Using software to correct, enhance, and finalize photographs."
+Organic Farming Practices,organic-farming-practices,Domain Knowledge,"Chemical-free cultivation methods including composting, crop rotation, and pest management."
+Soil & Crop Science,soil-and-crop-science,Science,"Understanding soil health, nutrients, and crop growth requirements."
+Scuba Diving Techniques,scuba-diving-techniques,Domain Knowledge,"Safe diving procedures, equipment use, and underwater navigation."
+Dive Safety & Rescue,dive-safety-and-rescue,Safety & Compliance,Emergency procedures and rescue techniques for diving incidents.
+Surfing Technique,surfing-technique,Domain Knowledge,Reading waves and executing surfing maneuvers safely.
+Ocean & Water Safety,ocean-and-water-safety,Safety & Compliance,"Understanding currents, tides, and safe-practice protocols around open water."
+Drone Piloting,drone-piloting,Tools & Equipment,"Operating unmanned aerial vehicles safely for photography, survey, or monitoring tasks."
+Aviation Regulations,aviation-regulations,Safety & Compliance,Knowledge of airspace rules and compliance requirements for drone or aircraft operation.
+Aerial Videography,aerial-videography,Creative Arts,Capturing and framing video footage from an aerial platform.
+Local History & Culture Knowledge,local-history-and-culture-knowledge,Domain Knowledge,"In-depth familiarity with the history, customs, and stories of a region."
+Storytelling,storytelling,Communication & Language,Structuring and delivering narratives that engage and inform an audience.
+Conservation Practices,conservation-practices,Domain Knowledge,"Methods for protecting ecosystems, wildlife, and natural resources."
+Environmental Policy Knowledge,environmental-policy-knowledge,Domain Knowledge,Understanding regulations and frameworks governing environmental protection.
+Field Patrol & Enforcement,field-patrol-and-enforcement,Domain Knowledge,Monitoring protected areas and enforcing conservation regulations.
+Rock Climbing Technique,rock-climbing-technique,Domain Knowledge,"Climbing methods, rope systems, and safety practices for vertical terrain."
+High-Altitude Survival Skills,high-altitude-survival-skills,Domain Knowledge,"Techniques for managing altitude, weather, and emergencies in mountain environments."
+Geological Fieldwork,geological-fieldwork,Science,"Collecting and analyzing rock, soil, and terrain samples in the field."
+GIS & Mapping,gis-and-mapping,Software,"Using geographic information systems to record, analyze, and present spatial data."
+Scientific Data Collection,scientific-data-collection,Science,Systematic gathering and recording of field or lab measurements.
+Navigation (Marine),navigation-marine,Domain Knowledge,Charting courses and operating vessels safely using nautical instruments.
+Vessel Operation,vessel-operation,Tools & Equipment,Safely operating and maintaining boats or yachts.
+Maritime Safety Regulations,maritime-safety-regulations,Safety & Compliance,Compliance with safety codes and procedures for marine operations.
+Landscape Design,landscape-design,Design,"Planning outdoor spaces for aesthetics, function, and plant health."
+Horticulture,horticulture,Domain Knowledge,"Knowledge of plant care, propagation, and garden maintenance."
+Irrigation Systems,irrigation-systems,Domain Knowledge,Designing and maintaining watering systems for gardens and green spaces.
+UI Design,ui-design,Design,"Designing visual interface layouts, components, and styling for digital products."
+UX Design,ux-design,Design,Designing user flows and interactions that make a product usable and intuitive.
+Wireframing & Prototyping,wireframing-and-prototyping,Design,Creating low- and high-fidelity mockups to communicate product design ideas.
+Figma,figma,Software,"Using Figma to design, prototype, and collaborate on interface designs."
+Design Systems,design-systems,Design,Building and maintaining reusable components and style guidelines for consistent design.
+Usability Testing,usability-testing,Domain Knowledge,Observing real users interact with a product to identify friction points.
+Video Editing,video-editing,Software,"Cutting, sequencing, and finishing raw footage into a polished video."
+Color Grading,color-grading,Software,Adjusting color and tone in footage to achieve a consistent visual style.
+Adobe Premiere Pro,adobe-premiere-pro,Software,Using Premiere Pro to edit and assemble video projects.
+Sound Design,sound-design,Domain Knowledge,"Selecting, editing, and mixing audio elements to support visual or audio content."
+Motion Graphics,motion-graphics,Creative Arts,"Creating animated visual elements such as titles, logos, and transitions."
+After Effects,after-effects,Software,Using After Effects to build motion graphics and visual effects.
+Animation Principles,animation-principles,Domain Knowledge,"Core concepts of timing, easing, and motion that make animation feel natural."
+Audio Recording & Mixing,audio-recording-and-mixing,Domain Knowledge,"Capturing clean audio and balancing levels, EQ, and effects."
+Podcast Production,podcast-production,Domain Knowledge,"End-to-end process of recording, editing, and distributing an audio show."
+Game Design,game-design,Domain Knowledge,"Designing gameplay mechanics, systems, levels, and player progression."
+Unity,unity,Software,Building and scripting interactive game projects in the Unity engine.
+Unreal Engine,unreal-engine,Software,Building and scripting interactive game projects in Unreal Engine.
+C#,c,Technical,Writing and debugging code in the C# programming language.
+Game Physics & Mechanics,game-physics-and-mechanics,Domain Knowledge,"Implementing believable movement, collision, and interaction systems in games."
+3D Modelling,3d-modelling,Creative Arts,"Building three-dimensional digital assets for use in games, film, or visualization."
+Blender,blender,Software,"Using Blender for 3D modelling, texturing, rigging, and rendering."
+Rigging & Animation,rigging-and-animation,Domain Knowledge,Building movable skeletons for 3D models and animating their motion.
+Texturing & Shading,texturing-and-shading,Domain Knowledge,Applying surface detail and material properties to 3D models.
+HTML/CSS,html-css,Technical,Structuring and styling web pages using HTML and CSS.
+JavaScript,javascript,Technical,Writing client-side and server-side logic using JavaScript.
+React,react,Technical,Building component-based user interfaces using the React library.
+Node.js,node-js,Technical,Building server-side applications and APIs using Node.js.
+Git,git,Tools & Equipment,"Using Git for version control, branching, and collaborative code management."
+REST APIs,rest-apis,Technical,Designing and consuming HTTP-based APIs following REST conventions.
+SQL,sql,Technical,"Writing queries to retrieve, join, and manipulate relational data."
+Python,python,Technical,"Writing and debugging code in Python for scripting, analysis, or application development."
+Data Visualization,data-visualization,Data,Presenting data through charts and dashboards for clear interpretation.
+Excel,excel,Software,"Using spreadsheet functions, formulas, and pivot tables for data analysis."
+Statistics,statistics,Data,Applying statistical concepts to summarize data and draw valid conclusions.
+Data Cleaning,data-cleaning,Data,"Identifying and correcting errors, duplicates, and inconsistencies in raw datasets."
+Network Security,network-security,Technical,"Protecting networks from unauthorized access using firewalls, monitoring, and segmentation."
+Vulnerability Assessment,vulnerability-assessment,Technical,Identifying and evaluating weaknesses in systems or applications.
+Penetration Testing,penetration-testing,Technical,Simulating attacks to test the security of systems with authorization.
+Security Tools (SIEM/IDS),security-tools-siem-ids,Software,Using monitoring and detection tools to identify and respond to security incidents.
+Machine Learning,machine-learning,Technical,Building models that learn patterns from data to make predictions or decisions.
+Deep Learning,deep-learning,Technical,Designing and training neural network architectures for complex pattern recognition.
+Data Preprocessing,data-preprocessing,Data,"Cleaning, transforming, and preparing raw data for model training."
+Model Evaluation,model-evaluation,Data,Assessing model performance using appropriate metrics and validation techniques.
+TensorFlow/PyTorch,tensorflow-pytorch,Software,"Using deep learning frameworks to build, train, and deploy models."
+Financial Market Analysis,financial-market-analysis,Domain Knowledge,"Interpreting price trends, indicators, and news to evaluate market conditions."
+Technical Chart Analysis,technical-chart-analysis,Domain Knowledge,Reading price charts and patterns to inform trading decisions.
+Risk Management (Trading),risk-management-trading,Domain Knowledge,"Setting position sizes, stop-losses, and exposure limits to control trading risk."
+Content Calendar Planning,content-calendar-planning,Business,Scheduling and organizing content publication across platforms over time.
+Email Marketing,email-marketing,Business,Planning and writing email campaigns that engage and convert subscribers.
+A/B Testing,a-b-testing,Data,Comparing variations of content or design to determine which performs better
+SEO,seo,Business,Optimizing content and pages to rank well in search engine results.
+Forensic Analysis Techniques,forensic-analysis-techniques,Science,Examining physical evidence using scientific methods to support investigations.
+Chain of Custody Procedures,chain-of-custody-procedures,Safety & Compliance,Documenting and preserving evidence handling to maintain its legal integrity.
+Laboratory Techniques,laboratory-techniques,Science,Executing controlled experiments and analyses using standard lab equipment and protocols.
+Patent Law Basics,patent-law-basics,Domain Knowledge,Understanding criteria and processes for patent eligibility and protection.
+Technical Research,technical-research,Research Methods,"Investigating existing technologies, publications, and prior art on a topic."
+Prior Art Search,prior-art-search,Research Methods,Systematically searching existing patents and literature for similar inventions.
+Behavioral Economics Theory,behavioral-economics-theory,Domain Knowledge,Understanding cognitive biases and heuristics that shape economic decision-making.
+Experimental Design,experimental-design,Research Methods,Structuring studies or experiments to isolate and test specific variables.
+Urban Planning Principles,urban-planning-principles,Domain Knowledge,"Frameworks for zoning, land use, transport, and infrastructure planning."
+GIS Mapping,gis-mapping,Software,Using geographic information systems to visualize and analyze spatial/urban data.
+Policy Analysis,policy-analysis,Research Methods,"Evaluating the impact, feasibility, and trade-offs of proposed or existing policies."
+Report Writing,report-writing,Communication & Language,"Structuring findings and recommendations into clear, well-organized written reports."
+Ethical Hacking Techniques,ethical-hacking-techniques,Technical,Authorized offensive-security methods used to uncover exploitable weaknesses.
+Ethical & Philosophical Reasoning,ethical-and-philosophical-reasoning,Domain Knowledge,Structured analysis of moral questions and competing value frameworks.
+Facilitation,facilitation,Domain Knowledge,"Guiding group discussions toward clarity, decisions, or shared understanding."
+Probability & Risk Modelling,probability-and-risk-modelling,Data,Quantifying uncertainty and risk using mathematical and statistical models.
+Actuarial Mathematics,actuarial-mathematics,Data,Applying specialized mathematics to model insurance and financial risk.
+Science Writing,science-writing,Communication & Language,Translating technical or scientific findings into accessible written content.
+Public Engagement,public-engagement,Communication & Language,Communicating complex ideas to non-expert audiences through talks or media.
+Archaeological Excavation Techniques,archaeological-excavation-techniques,Domain Knowledge,"Methods for safely uncovering, recording, and preserving archaeological sites."
+Artifact Analysis & Preservation,artifact-analysis-and-preservation,Domain Knowledge,Examining and conserving historical artifacts using established conservation methods.
+Operations Research Modelling,operations-research-modelling,Data,"Building mathematical models to optimize logistics, scheduling, or resource allocation."
+Optimization Techniques,optimization-techniques,Data,Applying mathematical methods to find the best solution among possible options.
+User Interviews,user-interviews,Domain Knowledge,Conducting structured conversations to understand user needs and behaviors.
+Survey Design,survey-design,Research Methods,"Constructing surveys that yield reliable, unbiased, and actionable responses."
+Qualitative Data Analysis,qualitative-data-analysis,Research Methods,"Identifying themes and insights from interviews, observations, or open-ended text."
+Voice Modulation,voice-modulation,Domain Knowledge,"Controlling tone, pace, and emotion in spoken delivery for recorded or live performance."
+Script Reading & Interpretation,script-reading-and-interpretation,Domain Knowledge,Understanding and delivering written material with appropriate emphasis and emotion.
+Home Studio Recording,home-studio-recording,Tools & Equipment,Setting up and operating microphones and basic recording equipment.
+Comedy Writing,comedy-writing,Creative Arts,"Crafting jokes, bits, and comedic timing for live performance."
+Stage Presence,stage-presence,Domain Knowledge,Commanding audience attention and confidence while performing live.
+Improvisation,improvisation,Domain Knowledge,"Creating spontaneous, coherent content or responses in the moment."
+Choreography,choreography,Creative Arts,Designing sequences of movement set to music or narrative themes.
+Dance Technique,dance-technique,Domain Knowledge,Proficiency in the fundamentals and styles of dance performance.
+Acting Technique,acting-technique,Domain Knowledge,"Methods for embodying character, emotion, and intention on stage."
+Memorization,memorization,Domain Knowledge,"Retaining and accurately recalling lines, scripts, or sequences."
+Music Production,music-production,Domain Knowledge,"Composing, arranging, and finishing tracks using production techniques."
+Digital Audio Workstation (DAW),digital-audio-workstation-daw,Software,"Using software such as Ableton, FL Studio, or Logic to produce and mix music."
+Music Theory,music-theory,Domain Knowledge,"Understanding scales, harmony, and rhythm that underlie musical composition."
+Songwriting,songwriting,Creative Arts,Writing lyrics and melodies that convey a clear idea or story.
+Rhyme & Wordplay,rhyme-and-wordplay,Creative Arts,"Crafting rhythmic, rhyme-rich lyrics with lyrical creativity."
+DJ Mixing,dj-mixing,Tools & Equipment,Beatmatching and transitioning tracks live using DJ controllers or turntables.
+Music Curation,music-curation,Domain Knowledge,Selecting and sequencing tracks appropriate to an audience or event mood.
+Sleight of Hand,sleight-of-hand,Domain Knowledge,Precise manual techniques used to perform magic tricks convincingly.
+Illusion Design,illusion-design,Creative Arts,Designing and engineering magic tricks and stage illusions.
+Puppet Construction & Manipulation,puppet-construction-and-manipulation,Domain Knowledge,Building and operating puppets to convincingly portray character and movement.
+Character Voicing,character-voicing,Domain Knowledge,"Creating distinct, consistent voices for different characters."
+On-Camera Presence,on-camera-presence,Domain Knowledge,Speaking and behaving naturally and engagingly in front of a camera.
+Content Ideation,content-ideation,Creative Arts,"Generating original, audience-relevant ideas for ongoing content."
+YouTube/Platform Analytics,youtube-platform-analytics,Data,Interpreting platform-provided data to guide content strategy.
+Radio Broadcasting Techniques,radio-broadcasting-techniques,Domain Knowledge,Operating broadcast equipment and delivering content live on air.
+Event Hosting,event-hosting,Domain Knowledge,Keeping an audience engaged and an event on schedule as the on-stage host.
+Audience Engagement,audience-engagement,Communication & Language,Reading and responding to a live audience to sustain interest and energy.
+Art Therapy Techniques,art-therapy-techniques,Domain Knowledge,Using creative activities as a structured method to process emotion and trauma.
+Psychological First Aid,psychological-first-aid,Domain Knowledge,"Providing immediate, supportive care to someone in emotional distress."
+Trauma-Informed Care,trauma-informed-care,Domain Knowledge,Approaching support in a way that recognizes and avoids re-traumatizing clients.
+Music Therapy Techniques,music-therapy-techniques,Domain Knowledge,Using structured musical activities to support emotional and physical well-being.
+Grief Counselling Techniques,grief-counselling-techniques,Domain Knowledge,Structured approaches for supporting individuals through bereavement.
+Active Empathetic Listening,active-empathetic-listening,Communication & Language,Fully attending to and validating a person's emotional experience.
+Nutrition Science,nutrition-science,Science,Understanding macro/micronutrients and their effects on health and performance.
+Diet Planning,diet-planning,Domain Knowledge,Designing personalized meal and nutrition plans based on individual goals and needs.
+Anatomy & Physiology,anatomy-and-physiology,Science,Understanding body structures and systems relevant to health and movement.
+Yoga Instruction,yoga-instruction,Domain Knowledge,"Teaching postures, breathing, and meditation techniques safely and effectively."
+Breathing & Meditation Techniques,breathing-and-meditation-techniques,Domain Knowledge,Guiding breathing exercises and mindfulness practices for well-being.
+Physical Rehabilitation Techniques,physical-rehabilitation-techniques,Domain Knowledge,Designing and guiding exercises that restore movement and reduce pain after injury.
+Manual Therapy,manual-therapy,Domain Knowledge,Hands-on techniques used to assess and treat musculoskeletal issues.
+Occupational Therapy Techniques,occupational-therapy-techniques,Domain Knowledge,Adapting tasks and environments to help clients regain daily-living independence.
+Assistive Device Knowledge,assistive-device-knowledge,Domain Knowledge,Familiarity with tools and equipment that support independence for clients with disabilities.
+Animal Handling,animal-handling,Domain Knowledge,"Safely restraining, calming, and moving animals during care or treatment."
+Veterinary Support Procedures,veterinary-support-procedures,Domain Knowledge,Assisting with basic clinical procedures and animal care under supervision.
+Prenatal & Postpartum Care,prenatal-and-postpartum-care,Domain Knowledge,Supporting maternal health and recovery before and after childbirth.
+Labor Support Techniques,labor-support-techniques,Domain Knowledge,Providing physical and emotional support to a person during childbirth.
+Speech & Language Assessment,speech-and-language-assessment,Domain Knowledge,Evaluating communication difficulties to guide therapy planning.
+Speech Therapy Techniques,speech-therapy-techniques,Domain Knowledge,Structured exercises and methods to improve speech and language ability.
+Mental Health First Aid Techniques,mental-health-first-aid-techniques,Domain Knowledge,Recognizing and responding appropriately to signs of mental health crises.
+Elder Care Practices,elder-care-practices,Domain Knowledge,"Providing safe, dignified daily support and companionship to older adults."
+Medication & Care Routine Management,medication-and-care-routine-management,Domain Knowledge,Tracking and supporting adherence to a care recipient's medication and daily routines.
+Menu Development,menu-development,Domain Knowledge,"Designing a food offering balanced across cost, appeal, and kitchen feasibility."
+Kitchen Operations Management,kitchen-operations-management,Business,"Coordinating food prep, inventory, and order fulfillment efficiently."
+Food Delivery Platform Management,food-delivery-platform-management,Software,"Managing listings, orders, and performance on food delivery apps."
+Print-on-Demand Platforms,print-on-demand-platforms,Software,Using platforms like Printful or Redbubble to design and fulfill custom merchandise.
+Graphic Design,graphic-design,Design,"Creating visual designs for print, digital, or merchandise use."
+E-commerce Platform Management,e-commerce-platform-management,Software,Setting up and managing online storefronts such as Shopify or WooCommerce.
+Supplier Sourcing,supplier-sourcing,Business,Identifying and vetting reliable suppliers or manufacturers for a product line.
+No-Code App Development,no-code-app-development,Software,"Building functional apps using no-code platforms like Bubble, Glide, or Adalo."
+Product Requirements Definition,product-requirements-definition,Domain Knowledge,"Translating an idea into clear, buildable feature specifications."
+Newsletter Platforms,newsletter-platforms,Software,"Using tools like Substack or ConvertKit to write, design, and send newsletters."
+Audience Growth Strategy,audience-growth-strategy,Business,Planning tactics to grow and retain a subscriber or follower base.
+Affiliate Marketing Strategy,affiliate-marketing-strategy,Business,Selecting products and channels to promote for commission-based revenue.
+Content Creation,content-creation,Creative Arts,"Producing written, video, or visual content tailored to a target audience."
+Online Teaching Platforms,online-teaching-platforms,Software,Using tools like Zoom or dedicated tutoring platforms to deliver lessons remotely.
+Lesson Planning,lesson-planning,Domain Knowledge,Structuring instructional content and pacing to meet learning objectives.
+Subject Matter Expertise,subject-matter-expertise,Domain Knowledge,"Deep, accurate knowledge of the specific subject being taught or consulted on."
+Franchise Operations Management,franchise-operations-management,Business,Running a business location according to a franchisor's standards and systems.
+Inventory Management,inventory-management,Business,"Tracking, ordering, and organizing stock to meet demand without overstocking."
+Thrift Sourcing & Valuation,thrift-sourcing-and-valuation,Domain Knowledge,"Identifying underpriced, resellable items and estimating fair resale value."
+Online Marketplace Selling,online-marketplace-selling,Software,"Listing, pricing, and managing sales on platforms like eBay or Depop."
+Software Product Management,software-product-management,Business,Prioritizing features and roadmap based on user needs and business goals.
+SaaS Metrics & Analytics,saas-metrics-and-analytics,Data,"Tracking retention, churn, and usage metrics to guide a software product's growth."
+Coworking Space Operations,coworking-space-operations,Business,"Managing memberships, facilities, and community programming for a shared workspace."
+Facility Management,facility-management,Business,"Overseeing the upkeep, safety, and logistics of a physical space."
+Influencer Brand Partnerships,influencer-brand-partnerships,Business,Negotiating and managing paid collaborations between creators and brands.
+Personal Branding,personal-branding,Creative Arts,Shaping a consistent public identity and voice across content and platforms.
+Import/Export Compliance,import-export-compliance,Domain Knowledge,"Understanding customs, tariffs, and documentation required for cross-border trade."
+Logistics Coordination,logistics-coordination,Business,Planning and tracking the movement of goods from supplier to customer.
+Social Impact Measurement,social-impact-measurement,Business,Defining and tracking metrics that demonstrate a venture's social or environmental impact.
+Business Model Design,business-model-design,Business,"Structuring how a venture creates, delivers, and captures value sustainably."
+Brand Design,brand-design,Design,"Creating consistent visual identity elements such as logos, color, and typography."
+Marketing Strategy,marketing-strategy,Business,"Planning how to position and promote a product, service, or personal brand."
+Time & Project Management,time-and-project-management,Business,"Planning tasks, deadlines, and resources to deliver work on schedule."
+Customer Service,customer-service,Business,Responding to client needs and concerns professionally and effectively.
+Financial Literacy,financial-literacy,Finance,"Understanding budgeting, pricing, and basic accounting relevant to running a venture."
+Equipment Maintenance,equipment-maintenance,Tools & Equipment,"Inspecting, cleaning, and servicing equipment to keep it safe and reliable for use."

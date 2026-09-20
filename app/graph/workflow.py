@@ -38,6 +38,19 @@ from app.graph.nodes.context_refresher import (
     refresh_context,
 )
 
+from app.graph.nodes.module2_trigger import (
+    decide_module2_trigger,
+)
+from app.graph.nodes.module2_executor import (
+    execute_module2_node,
+)
+
+
+class Module1Context:
+
+    def __init__(self, db):
+        self.db = db
+
 
 def guardrail_response_node(
     state: State1
@@ -69,10 +82,18 @@ def route_after_input_guardrail(
     return "guardrail_response"
 
 
+def route_after_module2_trigger(state: State1):
+    if state.get("module2_triggered", False):
+        return "execute_module2"
+
+    return "output_guardrail"
+
+
 def build_module1_graph():
 
     workflow = StateGraph(
-        State1
+        State1,
+        context_schema=Module1Context,
     )
 
     # -------------------------------------------------
@@ -95,7 +116,7 @@ def build_module1_graph():
     )
 
     # -------------------------------------------------
-    # EXISTING MODULE 1 NODES
+    # MODULE 1 NODES
     # -------------------------------------------------
 
     workflow.add_node(
@@ -134,6 +155,20 @@ def build_module1_graph():
     )
 
     # -------------------------------------------------
+    # MODULE 2 TRIGGER DECISION
+    # -------------------------------------------------
+
+    workflow.add_node(
+        "decide_module2_trigger",
+        decide_module2_trigger,
+    )
+
+    workflow.add_node(
+        "execute_module2",
+        execute_module2_node,
+    )
+
+    # -------------------------------------------------
     # START
     # -------------------------------------------------
 
@@ -150,11 +185,8 @@ def build_module1_graph():
         "input_guardrail",
         route_after_input_guardrail,
         {
-            "load_context":
-                "load_context",
-
-            "guardrail_response":
-                "guardrail_response",
+            "load_context": "load_context",
+            "guardrail_response": "guardrail_response",
         },
     )
 
@@ -168,7 +200,7 @@ def build_module1_graph():
     )
 
     # -------------------------------------------------
-    # EXISTING MODULE 1 FLOW
+    # MODULE 1 FLOW
     # -------------------------------------------------
 
     workflow.add_edge(
@@ -201,8 +233,30 @@ def build_module1_graph():
         "analyze_onboarding_final",
     )
 
+    # -------------------------------------------------
+    # MODULE 2 TRIGGER DECISION
+    # -------------------------------------------------
+
     workflow.add_edge(
         "analyze_onboarding_final",
+        "decide_module2_trigger",
+    )
+
+    # -------------------------------------------------
+    # OUTPUT GUARDRAIL
+    # -------------------------------------------------
+
+    workflow.add_conditional_edges(
+        "decide_module2_trigger",
+        route_after_module2_trigger,
+        {
+            "execute_module2": "execute_module2",
+            "output_guardrail": "output_guardrail",
+        },
+    )
+
+    workflow.add_edge(
+        "execute_module2",
         "output_guardrail",
     )
 

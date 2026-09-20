@@ -23,6 +23,7 @@ from .student_skill import StudentSkill
 from .career_match import CareerMatch
 from .career_match_gap import CareerMatchGap
 from .readiness import Readiness
+from .student_intelligence import StudentIntelligence
 
 
 
@@ -50,4 +51,5 @@ __all__ = [
     "CareerMatch",
     "CareerMatchGap",
     "Readiness",
+    "StudentIntelligence",
 ]

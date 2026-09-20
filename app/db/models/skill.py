@@ -15,14 +15,29 @@ class Skill(Base):
     id: Mapped[uuid.UUID] = mapped_column(
         UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
     )
+
     name: Mapped[str] = mapped_column(
         String(150), nullable=False, unique=True
     )
-    category: Mapped[str | None] = mapped_column(String(100), nullable=True)
-    description: Mapped[str | None] = mapped_column(Text, nullable=True)
-    created_at: Mapped[DateTime] = mapped_column(
-        DateTime(timezone=True), server_default=func.now(), nullable=False
+
+    slug: Mapped[str] = mapped_column(
+        String(150), nullable=False, unique=True, index=True
     )
+
+    category: Mapped[str | None] = mapped_column(
+        String(100), nullable=True
+    )
+
+    description: Mapped[str | None] = mapped_column(
+        Text, nullable=True
+    )
+
+    created_at: Mapped[DateTime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False,
+    )
+
     updated_at: Mapped[DateTime] = mapped_column(
         DateTime(timezone=True),
         server_default=func.now(),

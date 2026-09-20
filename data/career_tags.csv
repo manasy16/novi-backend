@@ -1,0 +1,474 @@
+career_slug,tag
+woodworker-furniture-maker,Craft
+woodworker-furniture-maker,Woodworking
+woodworker-furniture-maker,Furniture
+woodworker-furniture-maker,Design
+woodworker-furniture-maker,Manual Skills
+ceramic-artist-potter,Craft
+ceramic-artist-potter,Pottery
+ceramic-artist-potter,Ceramics
+ceramic-artist-potter,Art
+ceramic-artist-potter,Manual Skills
+leather-craftsman,Craft
+leather-craftsman,Leatherwork
+leather-craftsman,Accessories
+leather-craftsman,Design
+leather-craftsman,Manual Skills
+jewellery-designer,Craft
+jewellery-designer,Jewellery
+jewellery-designer,Design
+jewellery-designer,Fashion
+jewellery-designer,Manual Skills
+tattoo-artist,Craft
+tattoo-artist,Tattoo
+tattoo-artist,Art
+tattoo-artist,Body Art
+tattoo-artist,Design
+calligrapher-hand-letterer,Craft
+calligrapher-hand-letterer,Calligraphy
+calligrapher-hand-letterer,Design
+calligrapher-hand-letterer,Art
+calligrapher-hand-letterer,Lettering
+soap-candle-maker,Craft
+soap-candle-maker,Soap Making
+soap-candle-maker,Candle Making
+soap-candle-maker,Small Business
+soap-candle-maker,Manual Skills
+baker-pastry-chef,Culinary
+baker-pastry-chef,Baking
+baker-pastry-chef,Food
+baker-pastry-chef,Small Business
+baker-pastry-chef,Craft
+tailor-fashion-designer,Fashion
+tailor-fashion-designer,Tailoring
+tailor-fashion-designer,Design
+tailor-fashion-designer,Craft
+tailor-fashion-designer,Textiles
+miniature-artist,Craft
+miniature-artist,Miniatures
+miniature-artist,Art
+miniature-artist,Design
+miniature-artist,Manual Skills
+bicycle-mechanic,Mechanics
+bicycle-mechanic,Bicycles
+bicycle-mechanic,Repair
+bicycle-mechanic,Manual Skills
+bicycle-mechanic,Small Business
+instrument-maker-luthier,Craft
+instrument-maker-luthier,Music
+instrument-maker-luthier,Instrument Making
+instrument-maker-luthier,Manual Skills
+instrument-maker-luthier,Design
+wedding-planner,Events
+wedding-planner,Weddings
+wedding-planner,Planning
+wedding-planner,Client Services
+wedding-planner,Business
+birthday-event-planner,Events
+birthday-event-planner,Party Planning
+birthday-event-planner,Business
+birthday-event-planner,Client Services
+birthday-event-planner,Planning
+life-coach,Coaching
+life-coach,Personal Development
+life-coach,Wellness
+life-coach,Client Services
+corporate-trainer,Training
+corporate-trainer,Corporate
+corporate-trainer,Education
+corporate-trainer,Facilitation
+corporate-trainer,L&D
+matchmaker-marriage-consultant,Matchmaking
+matchmaker-marriage-consultant,Relationships
+matchmaker-marriage-consultant,Consulting
+matchmaker-marriage-consultant,Client Services
+real-estate-agent,Real Estate
+real-estate-agent,Sales
+real-estate-agent,Property
+real-estate-agent,Negotiation
+real-estate-agent,Business
+hr-consultant,HR
+hr-consultant,Consulting
+hr-consultant,Recruitment
+hr-consultant,People Operations
+hr-consultant,Business
+travel-planner,Travel
+travel-planner,Planning
+travel-planner,Tourism
+travel-planner,Client Services
+travel-planner,Business
+fundraiser-crowdfunding-expert,Fundraising
+fundraiser-crowdfunding-expert,Non-Profit
+fundraiser-crowdfunding-expert,Crowdfunding
+fundraiser-crowdfunding-expert,Grants
+fundraiser-crowdfunding-expert,Business
+community-manager,Community
+community-manager,Social Media
+community-manager,Engagement
+community-manager,Digital
+community-manager,Marketing
+interpreter-translator,Language
+interpreter-translator,Translation
+interpreter-translator,Interpretation
+interpreter-translator,Communication
+conflict-mediator,Mediation
+conflict-mediator,Conflict Resolution
+conflict-mediator,Legal
+conflict-mediator,Consulting
+public-relations-pr-specialist,PR
+public-relations-pr-specialist,Media
+public-relations-pr-specialist,Communications
+public-relations-pr-specialist,Branding
+public-relations-pr-specialist,Business
+trekking-adventure-guide,Adventure
+trekking-adventure-guide,Outdoors
+trekking-adventure-guide,Guiding
+trekking-adventure-guide,Travel
+trekking-adventure-guide,Safety
+wildlife-photographer,Photography
+wildlife-photographer,Wildlife
+wildlife-photographer,Nature
+wildlife-photographer,Media
+wildlife-photographer,Conservation
+organic-farmer,Agriculture
+organic-farmer,Farming
+organic-farmer,Sustainability
+organic-farmer,Organic
+organic-farmer,Food
+scuba-diving-instructor,Diving
+scuba-diving-instructor,Water Sports
+scuba-diving-instructor,Instruction
+scuba-diving-instructor,Safety
+scuba-diving-instructor,Adventure
+surfing-instructor,Surfing
+surfing-instructor,Water Sports
+surfing-instructor,Instruction
+surfing-instructor,Adventure
+surfing-instructor,Safety
+drone-pilot,Drones
+drone-pilot,Aerial
+drone-pilot,Photography
+drone-pilot,Videography
+drone-pilot,Survey
+tour-guide,Tourism
+tour-guide,Guiding
+tour-guide,History
+tour-guide,Culture
+tour-guide,Travel
+forest-officer-conservationist,Conservation
+forest-officer-conservationist,Wildlife
+forest-officer-conservationist,Environment
+forest-officer-conservationist,Government
+forest-officer-conservationist,Forestry
+mountaineering-instructor,Mountaineering
+mountaineering-instructor,Climbing
+mountaineering-instructor,Adventure
+mountaineering-instructor,Safety
+mountaineering-instructor,Instruction
+geo-scientist-field-researcher,Geology
+geo-scientist-field-researcher,Research
+geo-scientist-field-researcher,Fieldwork
+geo-scientist-field-researcher,Science
+geo-scientist-field-researcher,Mapping
+sailing-yacht-captain,Sailing
+sailing-yacht-captain,Maritime
+sailing-yacht-captain,Yachting
+sailing-yacht-captain,Navigation
+sailing-yacht-captain,Travel
+urban-gardener-landscaper,Landscaping
+urban-gardener-landscaper,Gardening
+urban-gardener-landscaper,Design
+urban-gardener-landscaper,Sustainability
+urban-gardener-landscaper,Horticulture
+ui-ux-designer,UI/UX
+ui-ux-designer,Design
+ui-ux-designer,Product
+ui-ux-designer,Technology
+ui-ux-designer,Prototyping
+video-editor,Video Editing
+video-editor,Media
+video-editor,Content Creation
+video-editor,Post-Production
+motion-graphics-designer,Motion Graphics
+motion-graphics-designer,Animation
+motion-graphics-designer,Design
+motion-graphics-designer,Media
+motion-graphics-designer,Video
+podcast-producer,Podcasting
+podcast-producer,Audio
+podcast-producer,Media
+podcast-producer,Content Creation
+podcast-producer,Production
+game-developer,Game Development
+game-developer,Software Engineering
+game-developer,Programming
+game-developer,Design
+game-developer,Technology
+3d-artist-animator,3D Art
+3d-artist-animator,Animation
+3d-artist-animator,Design
+3d-artist-animator,Media
+3d-artist-animator,Game Development
+web-developer,Web Development
+web-developer,Software Engineering
+web-developer,Programming
+web-developer,Technology
+web-developer,Frontend
+data-analyst,Data
+data-analyst,Analytics
+data-analyst,Business Intelligence
+data-analyst,SQL
+data-analyst,Technology
+cybersecurity-analyst,Cybersecurity
+cybersecurity-analyst,Security
+cybersecurity-analyst,Technology
+cybersecurity-analyst,Networking
+cybersecurity-analyst,Risk
+ai-ml-engineer,AI
+ai-ml-engineer,Machine Learning
+ai-ml-engineer,Deep Learning
+ai-ml-engineer,Python
+ai-ml-engineer,Software Engineering
+stock-crypto-trader,Trading
+stock-crypto-trader,Finance
+stock-crypto-trader,Stock Market
+stock-crypto-trader,Crypto
+stock-crypto-trader,Investing
+social-media-manager,Social Media
+social-media-manager,Marketing
+social-media-manager,Content Creation
+social-media-manager,Digital
+social-media-manager,Branding
+email-marketer-copywriter,Copywriting
+email-marketer-copywriter,Email Marketing
+email-marketer-copywriter,Marketing
+email-marketer-copywriter,Content
+email-marketer-copywriter,Digital
+forensic-scientist,Forensics
+forensic-scientist,Science
+forensic-scientist,Criminal Justice
+forensic-scientist,Laboratory
+forensic-scientist,Research
+patent-analyst,Patents
+patent-analyst,IP Law
+patent-analyst,Research
+patent-analyst,Consulting
+patent-analyst,Technical Writing
+behavioural-economist,Economics
+behavioural-economist,Behavioral Science
+behavioural-economist,Research
+behavioural-economist,Policy
+behavioural-economist,Data
+urban-planner,Urban Planning
+urban-planner,City Development
+urban-planner,Policy
+urban-planner,GIS
+urban-planner,Government
+policy-researcher,Policy
+policy-researcher,Research
+policy-researcher,Government
+policy-researcher,Public Affairs
+policy-researcher,Analysis
+ethical-hacker,Cybersecurity
+ethical-hacker,Ethical Hacking
+ethical-hacker,Security
+ethical-hacker,Penetration Testing
+ethical-hacker,Technology
+philosophy-consultant,Philosophy
+philosophy-consultant,Ethics
+philosophy-consultant,Consulting
+philosophy-consultant,Facilitation
+actuary,Actuarial Science
+actuary,Finance
+actuary,Insurance
+actuary,Risk
+actuary,Statistics
+science-communicator,Science Communication
+science-communicator,Media
+science-communicator,Education
+science-communicator,Writing
+science-communicator,Public Speaking
+archaeologist,Archaeology
+archaeologist,History
+archaeologist,Fieldwork
+archaeologist,Research
+archaeologist,Preservation
+operations-researcher,Operations Research
+operations-researcher,Optimization
+operations-researcher,Data
+operations-researcher,Logistics
+operations-researcher,Analytics
+ux-researcher,UX Research
+ux-researcher,Research
+ux-researcher,Design
+ux-researcher,Technology
+ux-researcher,User Experience
+voice-over-artist,Voice Over
+voice-over-artist,Audio
+voice-over-artist,Performance
+voice-over-artist,Media
+voice-over-artist,Recording
+stand-up-comedian,Comedy
+stand-up-comedian,Performance
+stand-up-comedian,Live Entertainment
+stand-up-comedian,Writing
+dance-choreographer,Dance
+dance-choreographer,Choreography
+dance-choreographer,Performance
+dance-choreographer,Media
+dance-choreographer,Creative Arts
+theatre-actor,Theatre
+theatre-actor,Acting
+theatre-actor,Performance
+theatre-actor,Live Entertainment
+music-producer,Music Production
+music-producer,Audio
+music-producer,Media
+music-producer,Creative Arts
+rapper-lyricist,Music
+rapper-lyricist,Rap
+rapper-lyricist,Songwriting
+rapper-lyricist,Performance
+rapper-lyricist,Creative Arts
+dj,DJing
+dj,Music
+dj,Live Entertainment
+dj,Performance
+magician-illusionist,Magic
+magician-illusionist,Performance
+magician-illusionist,Live Entertainment
+magician-illusionist,Illusion
+puppeteer,Puppetry
+puppeteer,Performance
+puppeteer,Storytelling
+puppeteer,Children's Media
+youtube-creator,YouTube
+youtube-creator,Content Creation
+youtube-creator,Video
+youtube-creator,Media
+youtube-creator,Personal Branding
+rj-radio-host,Radio
+rj-radio-host,Broadcasting
+rj-radio-host,Audio
+rj-radio-host,Media
+rj-radio-host,Performance
+emcee-event-host,Emcee
+emcee-event-host,Event Hosting
+emcee-event-host,Public Speaking
+emcee-event-host,Live Entertainment
+art-therapist,Art Therapy
+art-therapist,Mental Health
+art-therapist,Healthcare
+art-therapist,Wellness
+art-therapist,Counseling
+music-therapist,Music Therapy
+music-therapist,Mental Health
+music-therapist,Healthcare
+music-therapist,Wellness
+music-therapist,Counseling
+grief-counsellor,Grief Counseling
+grief-counsellor,Mental Health
+grief-counsellor,Healthcare
+grief-counsellor,Counseling
+grief-counsellor,Wellness
+nutritionist-dietitian,Nutrition
+nutritionist-dietitian,Healthcare
+nutritionist-dietitian,Wellness
+nutritionist-dietitian,Diet Planning
+nutritionist-dietitian,Health
+yoga-instructor,Yoga
+yoga-instructor,Wellness
+yoga-instructor,Fitness
+yoga-instructor,Healthcare
+yoga-instructor,Meditation
+physiotherapist,Physiotherapy
+physiotherapist,Healthcare
+physiotherapist,Rehabilitation
+physiotherapist,Wellness
+physiotherapist,Health
+occupational-therapist,Occupational Therapy
+occupational-therapist,Healthcare
+occupational-therapist,Rehabilitation
+occupational-therapist,Disability Support
+occupational-therapist,Wellness
+animal-therapist-vet-assistant,Veterinary
+animal-therapist-vet-assistant,Animal Care
+animal-therapist-vet-assistant,Healthcare
+animal-therapist-vet-assistant,Animals
+midwife-birth-companion,Midwifery
+midwife-birth-companion,Maternal Health
+midwife-birth-companion,Healthcare
+midwife-birth-companion,Birth Support
+midwife-birth-companion,Wellness
+speech-therapist,Speech Therapy
+speech-therapist,Healthcare
+speech-therapist,Communication Disorders
+speech-therapist,Wellness
+mental-health-first-aider,Mental Health
+mental-health-first-aider,First Aid
+mental-health-first-aider,Healthcare
+mental-health-first-aider,Crisis Support
+mental-health-first-aider,Wellness
+elder-care-specialist,Elder Care
+elder-care-specialist,Healthcare
+elder-care-specialist,Caregiving
+elder-care-specialist,Wellness
+cloud-kitchen-owner,Food Business
+cloud-kitchen-owner,Cloud Kitchen
+cloud-kitchen-owner,Entrepreneurship
+cloud-kitchen-owner,Food & Beverage
+print-on-demand-seller,E-commerce
+print-on-demand-seller,Print-on-Demand
+print-on-demand-seller,Design
+print-on-demand-seller,Entrepreneurship
+dropshipper,E-commerce
+dropshipper,Dropshipping
+dropshipper,Entrepreneurship
+dropshipper,Online Business
+app-developer-no-code,No-Code
+app-developer-no-code,App Development
+app-developer-no-code,Technology
+app-developer-no-code,Product
+newsletter-creator,Newsletter
+newsletter-creator,Writing
+newsletter-creator,Content Creation
+newsletter-creator,Media
+newsletter-creator,Entrepreneurship
+affiliate-marketer,Affiliate Marketing
+affiliate-marketer,Content Creation
+affiliate-marketer,E-commerce
+affiliate-marketer,Marketing
+online-tutor,Tutoring
+online-tutor,Education
+online-tutor,Online Teaching
+online-tutor,Teaching
+franchise-owner,Franchise
+franchise-owner,Business Ownership
+franchise-owner,Operations
+franchise-owner,Entrepreneurship
+reseller-thrift-vintage,Reselling
+reseller-thrift-vintage,Thrift
+reseller-thrift-vintage,E-commerce
+reseller-thrift-vintage,Entrepreneurship
+saas-builder,SaaS
+saas-builder,Software Engineering
+saas-builder,Product
+saas-builder,Entrepreneurship
+saas-builder,Technology
+coworking-space-owner,Coworking
+coworking-space-owner,Real Estate
+coworking-space-owner,Business Ownership
+coworking-space-owner,Community
+micro-influencer,Influencer Marketing
+micro-influencer,Social Media
+micro-influencer,Content Creation
+micro-influencer,Personal Branding
+import-export-trader,Import Export
+import-export-trader,Trade
+import-export-trader,Logistics
+import-export-trader,Business
+social-enterprise-founder,Social Enterprise
+social-enterprise-founder,Entrepreneurship
+social-enterprise-founder,Impact
+social-enterprise-founder,Non-Profit
+social-enterprise-founder,Business
